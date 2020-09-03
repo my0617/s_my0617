@@ -5,23 +5,36 @@ body {
 li {
   list-style: none;
 }
+
 .header {
   background-color: #8B0000;
-  color: #fff;
   height: 120px;
 }
-
 .header-logo {
+  font-size: 50px;
+  padding: 20px 40px 0px 40px;
+  color: white;
+  display: inline-block;
   float:left;
-  font-size: 55px;
- padding: 20px 40px;
 }
 
-.header-list li {
-  float: left;
-  font-size: 30px;
-  padding: 40px 40px;
+.header-logo:active {
+  opacity: 0.8;
+}
 
+.header-list  {
+ font-size: 30px;
+   padding: 40px 40px 0px 40px;
+   color: white;
+   display: inline-block;
+   float: left;
+}
+.header-list:active {
+  opacity: 0.8;
+}
+
+a {
+  text-decoration: none;
 }
 
 .contents {
@@ -29,8 +42,18 @@ li {
   font-size: 30px;
 }
 
-h1{
+.sylva1 {
+
+  background-image:url(Sylvatica1.png);
+  background-size: cover;
+  width:1905px;
+  margin:10 auto;
+}
+
+h1 {
   border:4px solid black;
+  padding:10px;
+  margin:30px 200px;
 }
 
 .picture{
@@ -43,7 +66,50 @@ h1{
   border-bottom: 5px solid #008080;
 }
 
-input{
+input {
+padding: 10px 60px;
+}
+
+textarea {
+padding: 60px 120px;
+}
+
+h6 {
+  border:1px solid #696969;
+  border-radius: 10px;
+  padding:10px;
+  margin:30px 900px;
+  background-color: #696969;
+  color: white;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+h6:active {
+  opacity: 1;
+}
+
+.fab {
+  font-size: 50px;
   float: right;
-  margin:20px 40px;
+  display:inline-block;
+  padding: 10px;
+  color:black;
+}
+
+.fab:active {
+  opacity: 0.8;
+}
+
+.far {
+  font-size: 50px;
+  float:right;
+  display: inline-block;
+  margin-top:1px;
+  padding: 10px;
+  color: black;
+}
+
+.far:active {
+  opacity: :0.8;
 }
